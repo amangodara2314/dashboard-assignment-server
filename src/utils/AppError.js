@@ -4,6 +4,7 @@ class AppError extends Error {
    * @param {string} errorMessage - Error message
    * @param {number} statusCode - Http status code
    * @param {*} errors - errors array
+   *
    */
   constructor(
     errorMessage = "Something went wrong",
