@@ -1,5 +1,5 @@
 import recordRepository from "./record.repository.js";
-import AppError from "../../utils/appError.js";
+import AppError from "../../utils/AppError.js";
 import {
   buildHeaderMap,
   mapRow,

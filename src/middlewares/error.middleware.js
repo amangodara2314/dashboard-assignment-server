@@ -1,4 +1,4 @@
-import AppError from "../utils/appError.js"; // change this import path based on your project structure
+import AppError from "../utils/AppError.js";
 
 const errorMiddleware = (err, req, res, next) => {
   console.error(err);
